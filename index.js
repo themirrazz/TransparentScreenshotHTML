@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const whitePreview = document.getElementById("whitePreview");
     const blackPreview = document.getElementById("blackPreview");
     const resultPreview = document.getElementById("resultPreview");
+    const convertLink = document.getElementById("convertLink");
 
     let whiteImage = null;
     let blackImage = null;
@@ -82,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Display result canvas
         resultPreview.innerHTML = "";
         resultPreview.appendChild(resultCanvas);
+        convertLink.href = resultCanvas.toDataURL("image/png");
     }
 
     // Function to differentiate alpha and create transparent screenshot
