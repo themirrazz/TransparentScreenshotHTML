@@ -1,4 +1,4 @@
-import { next } from '@vercel/edge';
+/*import { next } from '@vercel/edge';
 
 export default function middleware(req) {
   return next({
@@ -10,4 +10,4 @@ export default function middleware(req) {
         'max-age=31536000; includeSubDomains; preload',
     },
   });
-}
+}*/
