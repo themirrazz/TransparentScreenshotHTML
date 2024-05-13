@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Screenshot Converter</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Transparent Screenshot Converter</h1>
+
+    <div>
+        <h2>Upload Screenshots</h2>
+        <input type="file" id="whiteInput" accept="image/*">
+        <input type="file" id="blackInput" accept="image/*">
+        <button id="convertButton">Convert</button>
+    </div>
+
+    <div>
+        <h2>Preview</h2>
+        <div id="whitePreview"></div>
+        <div id="blackPreview"></div>
+        <div id="resultPreview"></div>
+    </div>
+
+    <script src="./TransparentScreenshot.js"></script>
+
+</body>
+</html>

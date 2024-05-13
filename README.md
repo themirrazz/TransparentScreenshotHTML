@@ -1,2 +1,3 @@
-# TransparentScreenshot
-TransparentScreenshot is a utility that allows you to reate transparent screenshots manually with the use of a screenshot with a white and black background.
+# TransparentScreenshotHTML
+Fork of TransparentScreenshot that runs in your browser.
+Converted from C# to JavaScript/HTML by ChatGPT. CSS Styling 100% by themirrazz.
